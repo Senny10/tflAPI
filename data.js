@@ -21,7 +21,7 @@ axios.get(APIURL).then((response) => {
             expectedArrival: expectedArrival,
             modeName: modeName
         };
-        return tubeLinesRecord.push(tubeLineRecord);
+        tubeLinesRecord.push(tubeLineRecord);
     }
 
     console.log(tubeLinesRecord);
